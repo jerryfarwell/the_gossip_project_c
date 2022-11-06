@@ -1,0 +1,47 @@
+<br><br><br>
+<h3>Log in </h3>
+<br>
+<%=form_tag url_for(action:'create'), method:"post" do %>
+
+<%=label_tag'password :'%><br>
+  <%= text_field_tag 'password'%><br><br>
+
+  <%=label_tag'email :'%><br>
+  <%= text_field_tag 'email'%><br><br>
+
+  <%= submit_tag "Send" %>
+<%end%>
+
+<br><br>
+
+<div class = "hello">
+<h1>Hello ! </h1><br>
+<h3> thank you for choosing the gossip project web site</h3>
+<h3>Sign in to be able to create a gossip your first gossip</h3>
+</div>
+
+<br><br>
+<div class="panel-heading"><h3>Sign in 👇🏽</h3>
+<br><br>
+
+<%=form_tag url_for(action:'create'), method:"post" do %>
+
+  <%=label_tag'first name :'%><br>
+  <%= text_field_tag 'first_name'%><br><br>
+
+  <%=label_tag'last name :'%><br>
+  <%= text_field_tag 'last_name'%><br><br>
+
+  <%=label_tag'city :'%><br>
+  <%= text_field_tag 'city'%><br><br>
+
+  <%=label_tag'password :'%><br>
+  <%= text_field_tag 'password'%><br><br>
+
+  <%=label_tag'email :'%><br>
+  <%= text_field_tag 'email'%><br><br>
+
+  <%= submit_tag "Send" %>
+<%end%>
+</div>
+<br><br>

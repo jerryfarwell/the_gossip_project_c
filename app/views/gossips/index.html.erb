@@ -1,0 +1,28 @@
+<br><br><br>
+
+
+<div class = "gossip-create">
+<h2>hello ! <%= @test %></h2>
+
+<br><br>
+<h1>Create your gossip</h1>
+
+<%=form_tag url_for(action:'create'), method:"post" do %>
+
+  <%=label_tag'title:'%><br>
+  <%= text_field_tag 'title'%><br><br>
+
+  <%= label_tag'Author name :'%><br>
+  <%= text_field_tag'author'%><br><br>
+
+  <%=label_tag'content :'%><br>
+  <%= text_area_tag 'content'%><br><br>
+
+  <%= submit_tag "create" %>
+<%end%>
+</div>
+
+<br/><br/> 
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
